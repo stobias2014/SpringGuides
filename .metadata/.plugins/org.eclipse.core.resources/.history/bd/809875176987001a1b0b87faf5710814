@@ -1,0 +1,6 @@
+package com.tobias.saul.RESTfulConsumption.domain;
+
+
+public class Quote {
+
+}

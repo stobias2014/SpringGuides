@@ -1,0 +1,5 @@
+package com.tobias.saul.GreetingRest.entity;
+
+public class Greeting {
+
+}

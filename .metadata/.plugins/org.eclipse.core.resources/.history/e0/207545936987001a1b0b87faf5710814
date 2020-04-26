@@ -1,0 +1,8 @@
+package com.tobias.saul.RESTfulConsumption.domain;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Value {
+	
+}

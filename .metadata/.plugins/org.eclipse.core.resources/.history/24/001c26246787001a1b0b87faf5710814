@@ -1,0 +1,13 @@
+package com.tobias.saul.GreetingRest.controller;
+
+import java.util.concurrent.atomic.AtomicLong;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class GreetingController {
+	
+	private static final String content = "Hello, %s!";
+	private final AtomicLong counter;
+
+}

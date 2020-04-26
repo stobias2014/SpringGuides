@@ -1,0 +1,10 @@
+package com.tobias.saul.GreetingRest.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class GreetingController {
+	
+	private static final String content = "Hello, %s!";
+
+}

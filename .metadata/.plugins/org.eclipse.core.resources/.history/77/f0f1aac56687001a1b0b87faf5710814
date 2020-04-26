@@ -1,0 +1,13 @@
+package com.tobias.saul.GreetingRest.entity;
+
+
+public class Greeting {
+	
+	private final long id;
+	private final String content;
+	
+	public Greeting() {
+		
+	}
+
+}
