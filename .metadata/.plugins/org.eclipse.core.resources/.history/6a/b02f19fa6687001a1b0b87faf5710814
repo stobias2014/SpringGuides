@@ -1,5 +1,0 @@
-package com.tobias.saul.GreetingRest.controller;
-
-public class GreetingController {
-
-}

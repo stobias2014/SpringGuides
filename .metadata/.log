@@ -619,3 +619,26 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2020-04-27 21:35:06.017 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/saultobias/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/saultobias/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-27 21:35:16.763
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2020-04-27 21:35:16.891
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.tigris.subversion.clientadapter.javahl 1 0 2020-04-27 22:35:35.587
+!MESSAGE Failed to load JavaHL Library.
+These are the errors that were encountered:
+no libsvnjavahl-1 in java.library.path: [/Users/saultobias/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java, .]
+/usr/local/Cellar/subversion/1.12.0_2/lib/libsvnjavahl-1.0.dylib: dlopen(/usr/local/Cellar/subversion/1.12.0_2/lib/libsvnjavahl-1.0.dylib, 1): Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/Cellar/subversion/1.12.0_2/libexec/serf/lib/libserf-1.dylib
+  Reason: image not found
+no svnjavahl in java.library.path: [/Users/saultobias/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java, .]
+java.library.path = /Users/saultobias/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
