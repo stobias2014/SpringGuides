@@ -1,5 +1,6 @@
 package com.tobias.saul.MultiPartFileUpload.controller;
 
+import java.io.IOException;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +33,7 @@ public class FileUploadController {
 	}
 
 	@GetMapping("/")
-	public String listUploadedFiles(Model model) {
+	public String listUploadedFiles(Model model) throws IOException, StorageFileNotFoundException{
 
 		model.addAttribute("files",
 				storageService.loadAll()
@@ -47,7 +48,7 @@ public class FileUploadController {
 
 	@GetMapping("/files/{fileName:.+}")
 	@ResponseBody
-	public ResponseEntity<Resource> serveFile(@PathVariable String fileName) {
+	public ResponseEntity<Resource> serveFile(@PathVariable String fileName) throws StorageFileNotFoundException {
 		Resource file = storageService.loadAsResource(fileName);
 
 		return ResponseEntity.ok()
@@ -56,7 +57,7 @@ public class FileUploadController {
 	}
 
 	@PostMapping("/")
-	public String handleFileUpload(@RequestParam("file") MultipartFile file, RedirectAttributes redirectAttribute) {	
+	public String handleFileUpload(@RequestParam("file") MultipartFile file, RedirectAttributes redirectAttribute) throws StorageFileNotFoundException {	
 		
 		storageService.store(file);
 		redirectAttribute.addFlashAttribute("message", "Successful Upload: " + file.getOriginalFilename());
