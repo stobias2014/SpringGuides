@@ -1,22 +1,2 @@
 INDEX VERSION 1.131+/Volumes/Saul Tobias HD/SpringGuides/.metadata/.plugins/org.eclipse.jdt.core
-4042016344.index
-69525766.index
-2674347173.index
-2436908003.index
-801885258.index
-2109047117.index
-1335263102.index
-648317852.index
-2386260140.index
-865095588.index
-1465324659.index
-3187668143.index
-1018173864.index
-1243337495.index
-964524717.index
-273478758.index
-2962509354.index
-2464483191.index
-2137909035.index
-158892586.index
-1931073378.index
+2827856479.index
