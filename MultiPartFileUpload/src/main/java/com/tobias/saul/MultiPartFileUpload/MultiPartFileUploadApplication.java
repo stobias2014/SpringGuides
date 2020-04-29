@@ -6,10 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
+import com.tobias.saul.MultiPartFileUpload.properties.StorageProperties;
 import com.tobias.saul.MultiPartFileUpload.service.StorageService;
 
 @SpringBootApplication
-@EnableConfigurationProperties
+@EnableConfigurationProperties(StorageProperties.class)
 public class MultiPartFileUploadApplication {
 
 	public static void main(String[] args) {
