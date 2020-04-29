@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Volumes/Saul Tobias HD/SpringGuides/RabbitMQMessaging"/>
 			<item value="/Volumes/Saul Tobias HD/SpringGuides/MultiPartFileUpload"/>
 			<item value="/Volumes/Saul Tobias HD/SpringGuides/ScheduledTask"/>
 			<item value="/Volumes/Saul Tobias HD/SpringGuides/RESTfulConsumption"/>

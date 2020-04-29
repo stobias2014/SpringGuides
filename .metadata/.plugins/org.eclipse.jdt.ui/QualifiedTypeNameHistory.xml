@@ -5,9 +5,7 @@
     <fullyQualifiedTypeName name="com.tobias.saul.GreetingRest.entity.Greeting"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnoreProperties"/>
     <fullyQualifiedTypeName name="com.tobias.saul.RESTfulConsumption.ResTfulConsumptionApplication"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="org.springframework.boot.web.client.RestTemplateBuilder"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
     <fullyQualifiedTypeName name="org.springframework.web.client.RestTemplate"/>
     <fullyQualifiedTypeName name="com.tobias.saul.RESTfulConsumption.domain.Quote"/>
     <fullyQualifiedTypeName name="org.slf4j.Logger"/>
@@ -16,7 +14,6 @@
     <fullyQualifiedTypeName name="org.springframework.scheduling.annotation.Scheduled"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="org.springframework.scheduling.annotation.EnableScheduling"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
@@ -38,4 +35,22 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
     <fullyQualifiedTypeName name="com.tobias.saul.MultiPartFileUpload.exception.StorageFileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
+    <fullyQualifiedTypeName name="com.rabbitmq.client.AMQP.Queue"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.core.Binding"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.core.Queue"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.core.TopicExchange"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.core.BindingBuilder"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.rabbit.connection.ConnectionFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="org.springframework.amqp.rabbit.core.RabbitTemplate"/>
+    <fullyQualifiedTypeName name="com.tobias.saul.RabbitMQMessaging.receiver.Receiver"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.tobias.saul.RabbitMQMessaging.RabbitMqMessagingApplication"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 </qualifiedTypeNameHistroy>
